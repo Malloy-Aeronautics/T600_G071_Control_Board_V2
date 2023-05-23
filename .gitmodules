@@ -1,0 +1,3 @@
+[submodule "ma_kicad_library"]
+	path = ma_kicad_library
+	url = https://github.com/Malloy-Aeronautics/ma_kicad_library.git
