@@ -414,10 +414,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 188582f0-353d-43d5-bd23-9a1e95eb3718)
   )
-  (wire (pts (xy 41.91 34.29) (xy 41.91 36.83))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1ac7a512-6cdf-476f-8695-ba56064cb97e)
-  )
   (wire (pts (xy 250.19 123.19) (xy 250.19 116.84))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1c6fd07c-8c43-4fa3-ab57-77e4c04b1071)
@@ -453,10 +449,6 @@
   (wire (pts (xy 245.11 83.82) (xy 227.33 83.82))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 338725ba-7fd2-48d8-bafe-c588495ceb25)
-  )
-  (wire (pts (xy 41.91 31.75) (xy 57.15 31.75))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 35f11e9e-2056-49d4-b23f-cc37bf473d97)
   )
   (wire (pts (xy 242.57 78.74) (xy 227.33 78.74))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -546,6 +538,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8496a204-31b3-4bf3-afd3-b5125059e04a)
   )
+  (wire (pts (xy 257.81 106.68) (xy 255.27 106.68))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9179389d-ff41-4a4c-b368-7dd7af654e79)
+  )
   (wire (pts (xy 106.68 31.75) (xy 106.68 72.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 91ae6da5-cced-44a0-876a-4a7ee5c1f8a0)
@@ -605,6 +601,10 @@
   (wire (pts (xy 254 93.98) (xy 227.33 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bebfd992-b7ca-4cb2-ac42-e63891a017ba)
+  )
+  (wire (pts (xy 255.27 106.68) (xy 255.27 107.95))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c3dd3d24-0534-4a87-89b7-8b9f19ee9fd3)
   )
   (wire (pts (xy 237.49 99.06) (xy 257.81 99.06))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -667,10 +667,6 @@
     (uuid fe559612-2008-4d09-94c1-b9abde339879)
   )
 
-  (text "Battery" (at 25.4 24.13 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0e4b27d3-3486-4b05-88e3-4ed30429e694)
-  )
   (text "CAN BUS 1\n" (at 22.86 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10e2a974-d6ab-4407-a83d-8b6513d80180)
@@ -708,21 +704,6 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 36.83 34.29 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 3126d964-f5db-48fd-9685-3cec4972fd45)
-    (property "Reference" "J1" (id 0) (at 36.83 25.4 0))
-    (property "Value" "Conn_01x02" (id 1) (at 36.83 27.94 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal" (id 2) (at 36.83 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 36.83 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 32eb182a-7a8c-448c-bcd3-d22af7955c0c))
-    (pin "2" (uuid 835abb0f-8d0f-407a-8501-f50d417a9b13))
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 241.3 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3bd57b08-8de1-409b-b568-8118d74930e0)
@@ -732,7 +713,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 243.84 154.9399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal" (id 2) (at 241.3 152.4 0)
+    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" (id 2) (at 241.3 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 241.3 152.4 0)
@@ -751,7 +732,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 34.29 102.8701 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0410_1x04-1MP_P3.00mm_Horizontal" (id 2) (at 36.83 105.41 0)
+    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" (id 2) (at 36.83 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 36.83 105.41 0)
@@ -763,22 +744,6 @@
     (pin "4" (uuid 6ef8c676-244c-43f8-a6e4-f3b265e425c2))
   )
 
-  (symbol (lib_id "power:GND") (at 41.91 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 5309a834-cd36-457b-889e-5fd05a9149e0)
-    (property "Reference" "#PWR0101" (id 0) (at 41.91 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 41.91 40.64 0))
-    (property "Footprint" "" (id 2) (at 41.91 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 41.91 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88a2cc08-fd5d-457f-8dc6-842206c9af30))
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 36.83 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 585748b2-ac4a-438a-b275-c6419177984a)
@@ -788,7 +753,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 34.29 121.9201 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0410_1x04-1MP_P3.00mm_Horizontal" (id 2) (at 36.83 124.46 0)
+    (property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" (id 2) (at 36.83 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 36.83 124.46 0)
@@ -832,12 +797,28 @@
     (pin "9" (uuid 76d14f4a-1329-45e8-8b63-0421b28d5b23))
   )
 
+  (symbol (lib_id "power:GND") (at 255.27 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid c0da1308-3d36-4818-9fee-da384a30fd46)
+    (property "Reference" "#PWR0101" (id 0) (at 255.27 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 251.46 109.22 0))
+    (property "Footprint" "" (id 2) (at 255.27 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 255.27 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 06543f76-9a9a-44fd-a1fc-e1392c383e33))
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 36.83 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ee8cf3be-3883-49bc-a516-62687ce63bce)
     (property "Reference" "J2" (id 0) (at 36.83 55.88 0))
     (property "Value" "Conn_01x03" (id 1) (at 36.83 58.42 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal" (id 2) (at 36.83 64.77 0)
+    (property "Footprint" "MAG_Connectors:PWM_PADS" (id 2) (at 36.83 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 36.83 64.77 0)
@@ -1166,10 +1147,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d27a7ae5-8394-47e4-a01a-54d2c6a4617e)
     )
-    (pin "VBATT" input (at 57.15 31.75 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bfb7ac96-199e-45d8-9150-ea5c8af8c4ea)
-    )
   )
 
   (sheet_instances
@@ -1184,7 +1161,13 @@
   )
 
   (symbol_instances
-    (path "/5309a834-cd36-457b-889e-5fd05a9149e0"
+    (path "/9f64aaa3-8a7d-475c-86ee-3ff6b85cbba8/62d704ce-8709-4b58-ba88-7a7100ecad45"
+      (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/9f64aaa3-8a7d-475c-86ee-3ff6b85cbba8/60d24b75-6892-405f-b96a-4937ab65fae3"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c0da1308-3d36-4818-9fee-da384a30fd46"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/f1f22c24-80f8-4908-8edd-6dbf1572b99e/10f4db31-38f4-4cdb-9d06-883a0c96ee80"
@@ -1283,9 +1266,6 @@
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/81cbfc57-0525-4eab-9d90-9dc1f63c5b71"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
-    (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/60d77714-67e8-4f9e-8766-bce7c19da891"
-      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
-    )
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/17e0dc9c-e75d-4949-89b6-cff69a2c137b"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
@@ -1373,9 +1353,6 @@
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/00a35b85-a257-4aee-83f4-3f2595e6e956"
       (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/26231cb0-eef4-4c3e-952e-7d8bc6950d3c"
-      (reference "C13") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/33a38562-3289-4aa1-a9e8-139057549510"
       (reference "C14") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1454,29 +1431,29 @@
     (path "/d4cacd58-2fa8-4368-bf84-08c16daa9fd4/72958b38-5404-4df3-8b99-e678db869ceb"
       (reference "IC6") (unit 1) (value "INA240A2PW") (footprint "SOP65P640X120-8N")
     )
-    (path "/3126d964-f5db-48fd-9685-3cec4972fd45"
-      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal")
-    )
     (path "/ee8cf3be-3883-49bc-a516-62687ce63bce"
-      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0310_1x03-1MP_P3.00mm_Horizontal")
+      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "MAG_Connectors:PWM_PADS")
     )
     (path "/4f1840cc-0c07-4f54-987f-561155c6670d"
-      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0410_1x04-1MP_P3.00mm_Horizontal")
+      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal")
     )
     (path "/585748b2-ac4a-438a-b275-c6419177984a"
-      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0410_1x04-1MP_P3.00mm_Horizontal")
+      (reference "J4") (unit 1) (value "Conn_01x04") (footprint "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal")
     )
     (path "/3bd57b08-8de1-409b-b568-8118d74930e0"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/b9c2c30d-8697-4825-a353-8b1be35fdd75"
       (reference "J6") (unit 1) (value "Conn_01x15") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical")
+    )
+    (path "/9f64aaa3-8a7d-475c-86ee-3ff6b85cbba8/0c2e5f9a-ca20-4577-a72d-fb481795162a"
+      (reference "J7") (unit 1) (value "TC6NL_SWD") (footprint "TC2030IDC")
     )
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/97ce927e-c995-419f-95ab-d3575a4fed10"
       (reference "L1") (unit 1) (value "1m") (footprint "Inductor_SMD:L_7.3x7.3_H4.5")
     )
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/8bfc0afd-8a54-41bd-833b-892ba4409ed5"
-      (reference "PS1") (unit 1) (value "AZ1117CR-5.0TRG1") (footprint "AZ1117CR50TRG1")
+      (reference "PS1") (unit 1) (value "AZ1117CR-5.0TRG1") (footprint "MAG_LDO_Regulators:AZ1117CR33TRG1")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/9b04a712-c7c7-444c-9740-79c9b4bc32a2"
       (reference "R1") (unit 1) (value "20R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1551,34 +1528,34 @@
       (reference "R24") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/4876ac39-be83-4da5-a3fa-b27527309f34"
-      (reference "U1") (unit 1) (value "L6498DTR") (footprint "")
+      (reference "U1") (unit 1) (value "L6498DTR") (footprint "MAG_Gate_Drivers:SOT127P600X175-8N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/7e970307-2c1d-43f3-ab94-5b1c1ee43516"
-      (reference "U2") (unit 1) (value "L6498DTR") (footprint "")
+      (reference "U2") (unit 1) (value "L6498DTR") (footprint "MAG_Gate_Drivers:SOT127P600X175-8N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/d18f3498-be51-4696-aee0-bc65a4f2eda1"
-      (reference "U3") (unit 1) (value "L6498DTR") (footprint "")
+      (reference "U3") (unit 1) (value "L6498DTR") (footprint "MAG_Gate_Drivers:SOT127P600X175-8N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/389d47f4-d3c9-4fcb-96ca-110bf6b06dcc"
-      (reference "U4") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U4") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/d935243a-b236-42dd-8c3e-727f0feac001"
-      (reference "U5") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U5") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/2bf2e13f-efbb-431d-81d4-90b1ada3130d"
-      (reference "U6") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U6") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/3997b960-cb72-4e2f-86f8-23b1de503e41"
-      (reference "U7") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U7") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/e861e069-5e6f-45dc-8a1a-c81713b7107c"
-      (reference "U8") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U8") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/221512c8-6f62-4187-801f-1faa0dae0394/81c51f28-ae9a-40e0-a969-c2380f7f0ffb"
-      (reference "U9") (unit 1) (value "ZXGD3006E6QTA") (footprint "")
+      (reference "U9") (unit 1) (value "ZXGD3006E6QTA") (footprint "MAG_Gate_Drivers:SOT95P285X140-6N")
     )
     (path "/fb2e7353-251d-4251-a33e-9aef22c2f845/93a1e72f-07ae-40e9-9491-293ee09fec78"
-      (reference "U10") (unit 1) (value "LNK306DN-TL") (footprint "")
+      (reference "U10") (unit 1) (value "LNK306DN-TL") (footprint "MAG_Switching_Regulators:SOIC127P600X175-8N")
     )
   )
 )

@@ -95,7 +95,7 @@
         )
       )
     )
-    (symbol "MA_General:ISO1540QDRQ1" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "MAG_Isolators:ISO1540QDRQ1" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "IC" (id 0) (at 24.13 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -388,7 +388,7 @@
     (pin "1" (uuid cc7e2051-e407-4e8d-b9ef-65ee2e92f9ea))
   )
 
-  (symbol (lib_id "MA_General:ISO1540QDRQ1") (at 140.97 95.25 0) (unit 1)
+  (symbol (lib_id "MAG_Isolators:ISO1540QDRQ1") (at 140.97 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1e335a2d-2687-4830-8c8b-51212f05e063)
     (property "Reference" "IC5" (id 0) (at 154.94 87.63 0))

@@ -56,7 +56,7 @@
         )
       )
     )
-    (symbol "MA_General:ISO1050DUBR" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "MAG_CAN_Transceivers:ISO1050DUBR" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "IC" (id 0) (at 24.13 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -524,7 +524,7 @@
     (pin "1" (uuid 5174fd1a-8b53-4104-82a6-a95461f4b16e))
   )
 
-  (symbol (lib_id "MA_General:ISO1050DUBR") (at 134.62 68.58 0) (unit 1)
+  (symbol (lib_id "MAG_CAN_Transceivers:ISO1050DUBR") (at 134.62 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 46967b53-5dab-4c3e-8022-1e3d881f15e7)
     (property "Reference" "IC1" (id 0) (at 148.59 60.96 0))
@@ -582,7 +582,7 @@
     (pin "2" (uuid bccc4e1c-5d9b-4871-99ee-a6a005db1d2a))
   )
 
-  (symbol (lib_id "MA_General:ISO1050DUBR") (at 134.62 115.57 0) (unit 1)
+  (symbol (lib_id "MAG_CAN_Transceivers:ISO1050DUBR") (at 134.62 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5065b90e-a510-4613-af86-4a3d316db0a4)
     (property "Reference" "IC2" (id 0) (at 148.59 107.95 0))

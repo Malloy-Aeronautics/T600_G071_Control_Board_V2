@@ -56,7 +56,7 @@
         )
       )
     )
-    (symbol "MA_General:INA240A2PW" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "MAG_Current_Sense_Amplifiers:INA240A2PW" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "IC" (id 0) (at 24.13 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -386,7 +386,7 @@
     (pin "2" (uuid f6b6a05b-a7bd-428e-8393-6c0c176c1d32))
   )
 
-  (symbol (lib_id "MA_General:INA240A2PW") (at 138.43 93.98 0) (unit 1)
+  (symbol (lib_id "MAG_Current_Sense_Amplifiers:INA240A2PW") (at 138.43 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 72958b38-5404-4df3-8b99-e678db869ceb)
     (property "Reference" "IC6" (id 0) (at 152.4 86.36 0))
