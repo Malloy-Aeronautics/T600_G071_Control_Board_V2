@@ -836,7 +836,7 @@
     (property "Sheet name" "Gate_Drive" (id 0) (at 194.31 61.5184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 194.31 133.9346 0)
+    (property "Sheet file" "gate_drive.kicad_sch" (id 1) (at 194.31 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "W_HIN" input (at 194.31 114.3 180)
