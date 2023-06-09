@@ -15,4 +15,5 @@
   (lib (name "MAG_Switching_Regulators")(type "KiCad")(uri "${KIPRJMOD}/ma_kicad_library/footprints/MAG_Switching_Regulators.pretty")(options "")(descr ""))
   (lib (name "MAG_Test_Points")(type "KiCad")(uri "${KIPRJMOD}/ma_kicad_library/footprints/MAG_Test_Points.pretty")(options "")(descr ""))
   (lib (name "motherboard_headers")(type "KiCad")(uri "${KIPRJMOD}/ma_kicad_library/footprints/motherboard_headers.pretty")(options "")(descr ""))
+  (lib (name "MAG_Crystals")(type "KiCad")(uri "${KIPRJMOD}/ma_kicad_library/footprints/MAG_Crystals.pretty")(options "")(descr ""))
 )
