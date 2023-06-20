@@ -434,7 +434,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "T600_ESC_External_Cap_Bank_Rev2.step",
+      "step": "Outputs/T600_ESC_External_Cap_Bank_Rev2.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Malloy_template.kicad_wks"
