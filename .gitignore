@@ -29,7 +29,7 @@ fp-info-cache
 *.csv
 
 #ignore .zip files
-*.zip
+#*.zip
 
 #ignore autosaved files
 \#*\#
